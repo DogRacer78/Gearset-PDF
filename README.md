@@ -12,6 +12,12 @@ mvn compile exec:java
 
 To run the program and you should see the `test.pdf` file should be created. If not within the examples folder there is a pre generated one I have created on my own environment.
 
+I have also included a compiled `GearsetPDF-1.0-SNAPSHOT-jar-with-dependencies.jar` that can be run with:
+
+```bash
+java -jar GearsetPDF-1.0-SNAPSHOT-jar-with-dependencies.jar
+```
+
 ```bash
 mvn test
 ```
